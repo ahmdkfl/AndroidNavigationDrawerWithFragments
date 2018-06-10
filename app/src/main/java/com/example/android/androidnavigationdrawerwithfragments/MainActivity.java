@@ -32,12 +32,6 @@ public class MainActivity extends AppCompatActivity
     ActionBarDrawerToggle toggle;
 
     @Override
-    public void onConfigurationChanged(Configuration newConfig) {
-        super.onConfigurationChanged(newConfig);
-        onConfigurationChanged(newConfig);
-    }
-
-    @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
