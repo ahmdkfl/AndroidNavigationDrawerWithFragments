@@ -6,6 +6,7 @@ Example of an Android Application where when a Navigation Drawer item is clicked
   <img src="https://user-images.githubusercontent.com/32685864/41197992-674126d4-6c65-11e8-8c36-87a5ef0a49cb.jpg" width="280">
 </p>
 ### How it works
+
 There are two fragments in this example: FragmentOne.java, FragmentTwo.java.<br/>
 The FragmentOne is loaded when the application is first lunched, then whenever another option is clicked (e.g. Gallery), the FragmentOne, or any other fragment, is replaced with the fragment that is assigned in the onNavigationItemSelected method
 
@@ -99,3 +100,6 @@ try {
 FragmentManager fragmentManager = getSupportFragmentManager();
 fragmentManager.beginTransaction().replace(R.id.fragmentContent, fragment, TAG).commit();
 ```
+### References
+* [Using Fragments with the Navigation Drawer Activity by Chris Risner](https://chrisrisner.com/Using-Fragments-with-the-Navigation-Drawer-Activity)
+* [Fragment Navigation Drawer by CodePath](https://github.com/codepath/android_guides/wiki/Fragment-Navigation-Drawer)
