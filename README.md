@@ -104,3 +104,5 @@ fragmentManager.beginTransaction().replace(R.id.fragmentContent, fragment, TAG).
 ### References
 * [Using Fragments with the Navigation Drawer Activity by Chris Risner](https://chrisrisner.com/Using-Fragments-with-the-Navigation-Drawer-Activity)
 * [Fragment Navigation Drawer by CodePath](https://github.com/codepath/android_guides/wiki/Fragment-Navigation-Drawer)
+
+[Creative Commons Licence - CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/)
