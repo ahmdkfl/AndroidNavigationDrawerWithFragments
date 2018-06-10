@@ -5,6 +5,7 @@ Example of an Android Application where when a Navigation Drawer item is clicked
   <img src="https://user-images.githubusercontent.com/32685864/41197988-49deceb6-6c65-11e8-9144-4819c52c740b.jpg" width="280">
   <img src="https://user-images.githubusercontent.com/32685864/41197992-674126d4-6c65-11e8-8c36-87a5ef0a49cb.jpg" width="280">
 </p>
+
 ### How it works
 
 There are two fragments in this example: FragmentOne.java, FragmentTwo.java.<br/>
