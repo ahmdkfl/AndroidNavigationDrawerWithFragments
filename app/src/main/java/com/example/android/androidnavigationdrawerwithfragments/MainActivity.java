@@ -18,7 +18,7 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 
-//Reference: https://chrisrisner.com/Using-Fragments-with-the-Navigation-Drawer-Activity
+
 public class MainActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener, FragmentOne.OnFragmentInteractionListener, FragmentTwo.OnFragmentInteractionListener, DrawerLayout.DrawerListener {
     private final static String TAG = MainActivity.class.getSimpleName();
