@@ -203,7 +203,6 @@ public class MainActivity extends AppCompatActivity
             //TODO: Replace the enter and exit animations if needed
             fragmentTransaction.setCustomAnimations(R.anim.fade_in, R.anim.fade_out)
                     .replace(R.id.fragmentContent, fragment, TAG)
-                    .addToBackStack(null)
                     .commit();
 
             // Highlight the selected item has been done by NavigationView
